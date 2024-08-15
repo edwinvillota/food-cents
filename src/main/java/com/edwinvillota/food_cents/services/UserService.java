@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.edwinvillota.food_cents.entities.User;
 
-public interface UsersService {
+public interface UserService {
   List<User> findAll();
 
 }

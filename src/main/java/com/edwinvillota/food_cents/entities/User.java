@@ -37,11 +37,11 @@ public class User implements UserDetails {
 
   @CreationTimestamp
   @Column(updatable = false, name = "created_at")
-  private Date created_at;
+  private Date createdAt;
 
   @UpdateTimestamp
   @Column(name = "updated_at")
-  private Date updated_at;
+  private Date updatedAt;
 
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
